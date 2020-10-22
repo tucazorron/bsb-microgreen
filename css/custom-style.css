@@ -33,7 +33,7 @@ h6{
 	color: #074052;
 }
 .text-primary{
-	color: #B47F41!important;
+	color: white!important;
 }
 a.text-primary{
 	color: #B47F41;
@@ -123,7 +123,7 @@ i.box-circle-solid{
 }
 .bg-overlay:before{
 	content:"";
-	background:rgba(0,0,0,0.7);
+	/* background:rgba(0,0,0,0.7); */
 	position: absolute;
 	height: 100%;
 	width:100%;
@@ -133,7 +133,7 @@ i.box-circle-solid{
 }
 .bg-overlay-primary:before{
 	content:"";
-	background:rgba(49,31,10,0.5);
+	/* background:rgba(49,31,10,0.5); */
 	position: absolute;
 	height: 100%;
 	width:100%;
@@ -142,9 +142,21 @@ i.box-circle-solid{
 	z-index: -1;
 }
 .bg-right{
-	background:url("../img/sec-bg-01.jpg");
+	background: url("../img/rabanete.png");
 	background-repeat: no-repeat;
-	background-position: top right;
+	color: rgb(4, 164, 92);
+	/* opacity: 0.3; */
+}
+.bg-right:before{
+	content:"";
+	background:black;
+	opacity: 0.9;
+	position: absolute;
+	height: 100%;
+	width:100%;
+	left:0;
+	top:0;
+	z-index: -1;
 }
 .sec-bg-02{
 	background:url("../img/sec-bg-02.jpg");
@@ -285,7 +297,7 @@ i.box-circle-solid{
 	height: 60%;
 }
 .intro-bg{
-	background:url("../img/intro-bg-01.jpg");
+	background:url("../img/image-background.jpeg");
 	background-repeat:no-repeat;
 	background-position: center center;
 	background-size:cover;
@@ -508,7 +520,7 @@ i.box-circle-solid{
 	text-transform: capitalize;
 }
 .member-box{
-  width:100%
+  width:100%;
   float:left;
   position:relative;
   overflow:hidden
