@@ -183,7 +183,10 @@ i.box-circle-solid{
 	font-family: 'Abril Fatface', cursive;
 }
 
-
+.carousel-container{
+	margin: auto;
+	
+}
 /* ========== Page Loading Style ========== */
 .loaders {
     width: 100%;
@@ -440,7 +443,7 @@ i.box-circle-solid{
 }
 /*--- three Block Panel ---*/
 .three-panel-block{
-	float: left;
+
 	width: 100%;
 }
 .three-panel-block i{
